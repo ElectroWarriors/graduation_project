@@ -1,0 +1,292 @@
+.MODEL tsmc_nch_rf33 NMOS	LMIN     = 3.5e-007            LMAX     = 5.001E-07      
++WMIN     = 1.5000E-06          WMAX     = 8.001E-06      
++LEVEL    = 49                  TNOM     = 25.0                VERSION  = 3.24                 
++TOX      = 'toxn_RF3'          
++TOXM     = 6.8E-09           
++XJ       = 1.7000001E-07       
++NCH      = 5.2600000E17        LLN      = -1                  LWN      = 1.0000000           
++WLN      = 1.0000000           WWN      = -1.0000000          LINT     = 4.0000000E-08       
++LL       = 0.00                LW       = 0.00                LWL      = 0.00                
++WINT     = 1.4999999E-08       WL       = 0.00                WW       = 0.00                
++WWL      = 0.00                MOBMOD   = 1                   BINUNIT  = 2                   
++XL       = '-0.02E-6+dxln_RF3'   XW       = '0.0+dxwn_RF3'        DWG      = 0.00                
++DWB      = 0.00                ACM      = 12                  LDIF     = 9.00E-08            
++HDIF     = 'hdifn_RF3'          RSH      = 'rshn_RF3'           RD       = 0                   
++RS       = 0                                      
++VTH0     = '0.8659324+dvthn_RF3' 
++LVTH0    = '-1.6663769E-08+dlvthn_RF3' 
++WVTH0    = '-2.9767808E-09+dwvthn_RF3' 
++PVTH0    = '3.8488080E-16+dpvthn_RF3' 
++K1       = 0.7465155           LK1      = 1.0339250E-07       WK1      = -8.4537670E-08      
++PK1      = 1.5833523E-14      
++K2       = '0.1900880+dk2n_RF3'    
++LK2      = '-9.3703870E-08+dlk2n_RF3' 
++WK2      = 4.6535320E-09       PK2      = 7.9773500E-15       K3       = 0.00                
++DVT0     = 0.00                DVT1     = 0.00                DVT2     = 0.00                
++DVT0W    = 0.00                DVT1W    = 0.00                DVT2W    = 0.00                
++NLX      = 0.00                W0       = 0.00                K3B      = 0.00                
++VSAT     = '9.3130330E04+dvsatn_RF3' 
++LVSAT    = -8.5213050E-04      
++WVSAT    = '-4.6598160E-03+dwvsatn_RF3' 
++PVSAT    = 1.8639263E-09       UA       = -6.7444880E-10      
++LUA      = -9.2429640E-17      WUA      = -9.2701740E-16      PUA      = 3.6792740E-22       
++UB       = 2.1189834E-18       LUB      = 2.1742727E-25       WUB      = 5.1692720E-25       
++PUB      = -4.2773630E-31      UC       = 2.6250338E-10       LUC      = -3.8793870E-17      
++WUC      = -1.1458971E-16      PUC      = 2.7201846E-23       RDSW     = 5.4500000E02        
++PRWB     = 0.00                PRWG     = 0.00                WR       = 1.0000000           
++U0       = '4.3624590E-02+du0n_RF3' 
++LU0      = '3.8858720E-10+dlu0n_RF3' 
++WU0      = '-9.7397600E-09+dwu0n_RF3' 
++PU0      = '2.5605882E-15+dpu0n_RF3' 
++A0       = 0.8771189           LA0      = -7.1350570E-08      
++WA0      = 1.2410786E-07       PA0      = -3.6596080E-14      KETA     = -5.3992410E-02      
++LKETA    = 7.5446550E-09       WKETA    = -4.2032270E-08      PKETA    = 1.8997448E-14       
++A1       = 0.00                A2       = 0.9900000           AGS      = -2.0000029E-02      
++B0       = 0.00                B1       = 0.00               
++VOFF     = '-0.1004960+dvoffn_RF3' 
++LVOFF    = '-3.7645670E-09+dlvoffn_RF3' 
++WVOFF    = '-4.5400990E-09+dwvoffn_RF3' 
++PVOFF    = '5.8367300E-15+dpvoffn_RF3' 
++NFACTOR  = '1.0000000+dnfactorn_RF3' 
++PNFACTOR = '0+dpnfactorn_RF3' 
++WNFACTOR = '0+dwnfactorn_RF3' 
++LNFACTOR = '0+dlnfactorn_RF3' 
++CIT      = 4.8816460E-04       LCIT     = 6.6214410E-12       
++WCIT     = 3.0312121E-11       PCIT     = -1.0693267E-17      CDSC     = 0.00                
++CDSCB    = 0.00                CDSCD    = 0.00               
++ETA0     = '-1.1666667E-03+deta0n_RF3' 
++PETA0    = '0+dpeta0n_RF3' 
++WETA0    = '0+dweta0n_RF3' 
++LETA0    = '6.6666660E-10+dleta0n_RF3' 
++ETAB     = 3.7764110E-03       LETAB    = -1.7105642E-09      
++WETAB    = -1.1034047E-09      PETAB    = 4.4136180E-16       DSUB     = 0.00                
++PCLM     = -0.2024819          LPCLM    = 3.5845730E-07       WPCLM    = 5.9620970E-07       
++PPCLM    = -1.3638029E-13      PDIBLC1  = 1.0000000E-06       PDIBLC2  = -1.1344876E-02      
++LPDIBLC2 = 4.9349870E-09       WPDIBLC2 = 6.8173790E-09       PPDIBLC2 = -2.6974037E-15      
++PDIBLCB  = 1.0000000E-02       DROUT    = 0.00                PSCBE1   = 3.5000020E08        
++PSCBE2   = 1.0000000E-06       PVAG     = 0.00                DELTA    = 1.0000000E-02       
++ALPHA0   = 0.0                 ALPHA1   = 7.049416            BETA0    = 21.5673             
++KT1      = -0.2558013          LKT1     = -1.7826350E-09      WKT1     = -1.3100086E-07      
++PKT1     = 4.2649530E-14       KT2      = -1.8057920E-02      LKT2     = -1.6622183E-09      
++WKT2     = 1.0027706E-09       PKT2     = -2.7101770E-15      AT       = 2.0123486E04        
++LAT      = -4.9394840E-05      WAT      = -1.2311670E-03      PAT      = 4.9246680E-10       
++UTE      = -1.0240370          LUTE     = -9.5193410E-09      WUTE     = 1.8708050E-07       
++PUTE     = -1.6398275E-13      UA1      = 2.0380289E-09       LUA1     = 7.8843000E-19       
++WUA1     = 1.9651618E-17       PUA1     = -7.8606470E-24      UB1      = -1.5444776E-18      
++LUB1     = 1.6075813E-25       WUB1     = -5.8817450E-25      PUB1     = -9.0092720E-32      
++UC1      = 1.0033722E-10       LUC1     = 1.4186265E-17       WUC1     = -9.6220470E-17      
++PUC1     = -8.2396960E-24      KT1L     = 0.00                PRT      = 0                               
+*
+* CAPACITANCE PARAMETERS
+*
++CJ       = 0         MJ       = 0.3259624           PB       = 0.7076023           
++CJSW     = 0         MJSW     = 0.1513672           PBSW     = 0.7076023           
++CJSWG    = 0         MJSWG    = 0.3513672           PBSWG    = 0.7076023           
++TPB      = 1.687207E-03        TPBSW    = 1.687207E-03        TCJ      = 9.923959E-04        
++TCJSW    = 5.019466E-04        JS       = 7.93E-06            JSW      = 7.00E-11            
++NJ       = 1.0                 XTI      = 3.0                 CGDO     = 1.069E-10            
++CGSO     = 1.069E-10           CGBO     = 1.0E-13             CAPMOD   = 3                   
++NQSMOD   = 0                   ELM      = 0                   XPART    = 0                   
++CF      = 0             	TLEV     = 1       	       TLEVC    = 1              
++CALCACM = 1
++WWC=0.0073
++DLC=5.28E-8
++DWC=-2.247E-8 
++NOFF=2.415        LNOFF=3E-7
++ACDE=0.825
++MOIN=10
++VOFFCV= -0.09 
++CGSL=3.71e-10
++CGDL=3.71e-10 
++WCF= 4.067E-17
+*
+* NOISE PARAMETERS
+*
++Noimod = 2        NOIA    = 1.0E+20    NOIB=4.0E4     NOIC  = -4.0E-13
++EM       = 3.0E+07        EF       =0.881 
+ 
+
+.MODEL tsmc_pch_rf33 PMOS	LMIN     = 3.0e-007            LMAX     = 5.001E-07      
++WMIN     = 1.5000E-06          WMAX     = 8.001E-06      
++LEVEL    = 49                  TNOM     = 25.0                VERSION  = 3.24  
++TOX      = 'toxp_RF3'          
++TOXM     = 6.77E-09           
++XJ       = 1.7000001E-07       
++NCH      = 4.9500000E17        LLN      = -1                  LWN      = 1.0000000           
++WLN      = 1.0000000           WWN      = -1.0000000          LINT     = 3.5000000E-08       
++LL       = 0.00                LW       = 0.00                LWL      = 0.00                
++WINT     = 2.0000000E-08       WL       = 0.00                WW       = 0.00                
++WWL      = 0.00                MOBMOD   = 1                   BINUNIT  = 2                   
++XL       = '-0.02E-6+dxlp_RF3'   XW       = '0.0+dxwp_RF3'        DWG      = 0.00                
++DWB      = 0.00                ACM      = 12                  LDIF     = 9.00E-08            
++HDIF     = 'hdifp_RF3'          RSH      = 'rshp_RF3'           RD       = 0                   
++RS       = 0                                      
++VTH0     = '-0.7727100+dvthp_RF3' 
++LVTH0    = '2.6472314E-08+dlvthp_RF3' 
++WVTH0    = '7.1924870E-08+dwvthp_RF3' 
++PVTH0    = '-2.1035541E-14+dpvthp_RF3' 
++K1       = 0.7699419           LK1      = 4.8013860E-08       WK1      = -1.8243896E-09      
++PK1      = -6.7361810E-15     
++K2       = '0.1315423+dk2p_RF3'    
++LK2      = '-2.9673100E-08+dlk2p_RF3' 
++WK2      = -2.7064845E-08      PK2      = 1.1859575E-14       K3       = 0.00                
++DVT0     = 0.00                DVT1     = 0.00                DVT2     = 0.00                
++DVT0W    = 0.00                DVT1W    = 0.00                DVT2W    = 0.00                
++NLX      = 0.00                W0       = 0.00                K3B      = 0.00                
++VSAT     = '1.1960348E05+dvsatp_RF3' 
++LVSAT    = -3.9374090E-03      
++WVSAT    = '8.9667880E-03+dwvsatp_RF3' 
++PVSAT    = -3.6763830E-09      UA       = 1.1489469E-09       
++LUA      = -1.5785002E-16      WUA      = 7.2362290E-16       PUA      = -1.8122008E-22      
++UB       = 2.4514955E-19       LUB      = 2.2735166E-25       WUB      = -1.3483237E-24      
++PUB      = 3.1242082E-31       UC       = -7.1838280E-11      LUC      = 2.2854683E-17       
++WUC      = -1.7606797E-16      PUC      = 3.7125090E-23       RDSW     = 9.0000000E02        
++PRWB     = 0.00                PRWG     = 0.00                WR       = 1.0000000           
++U0       = '1.0090719E-02+du0p_RF3' 
++LU0      = '-7.0264360E-11+dlu0p_RF3' 
++WU0      = '-6.4404460E-10+dwu0p_RF3' 
++PU0      = '8.6706510E-17+dpu0p_RF3' 
++A0       = 1.1409379           LA0      = -8.2552040E-08      
++WA0      = 1.4760643E-07       PA0      = -4.3866910E-14      KETA     = -1.1318877E-02      
++LKETA    = 1.9036506E-09       WKETA    = 1.4257295E-08       PKETA    = -7.1586210E-15      
++A1       = 0.00                A2       = 0.9900000           AGS      = 2.0000000E-02       
++B0       = 0.00                B1       = 0.00               
++VOFF     = '-0.1250223+dvoffp_RF3' 
++LVOFF    = '8.9629090E-09+dlvoffp_RF3' 
++WVOFF    = '-9.4300550E-10+dwvoffp_RF3' 
++PVOFF    = '-2.9157947E-15+dpvoffp_RF3' 
++NFACTOR  = '1.0000000+dnfactorp_RF3' 
++PNFACTOR = '0+dpnfactorp_RF3' 
++WNFACTOR = '0+dwnfactorp_RF3' 
++LNFACTOR = '0+dlnfactorp_RF3' 
++CIT      = 5.6188450E-04       LCIT     = -2.1553027E-11      
++WCIT     = -1.5986783E-10      PCIT     = 5.1946790E-17       CDSC     = 0.00                
++CDSCB    = 0.00                CDSCD    = 0.00               
++ETA0     = '-2.8413706E-04+deta0p_RF3' 
++LETA0    = '1.5749620E-10+dleta0p_RF3' 
++WETA0    = '-3.5866790E-10+dweta0p_RF3' 
++PETA0    = '1.4705383E-16+dpeta0p_RF3' 
++ETAB     = 8.7586620E-04       LETAB    = -4.0010520E-10      WETAB    = -3.0878400E-10      
++PETAB    = 1.2660141E-16       DSUB     = 0.00                PCLM     = 0.6645077           
++LPCLM    = 6.3411240E-09       WPCLM    = 4.0103030E-08       PPCLM    = 2.9485615E-15       
++PDIBLC1  = 1.0000000E-06       PDIBLC2  = -3.7510620E-03      LPDIBLC2 = 1.9479358E-09       
++WPDIBLC2 = 5.5112340E-09       PPDIBLC2 = -2.2596061E-15      PDIBLCB  = 1.0000000E-02       
++DROUT    = 0.00                PSCBE1   = 3.3079310E08        LPSCBE1  = 7.8748250           
++WPSCBE1  = -17.9333440         PPSCBE1  = 7.3526710E-06       PSCBE2   = 5.0000000E-07       
++PVAG     = 0.00                DELTA    = 1.0000000E-02       ALPHA0   = 0.00                
++ALPHA1   = 0.143217238         BETA0    = 16.10832            KT1      = -0.3349694          
++LKT1     = 1.3342398E-08       WKT1     = 1.7269201E-09       PKT1     = 2.6498244E-15       
++KT2      = -3.0737475E-02      LKT2     = 8.9807820E-10       WKT2     = 7.7649210E-10       
++PKT2     = 6.7802250E-17       AT       = -5.0000000E04       UTE      = -0.1318164          
++LUTE     = -2.0271844E-07      WUTE     = -3.7188310E-07      PUTE     = 2.1910628E-13       
++UA1      = 3.6255330E-09       LUA1     = -6.5375860E-16      WUA1     = -1.8496589E-15      
++PUA1     = 7.5836000E-22       UB1      = -2.5613780E-18      LUB1     = 2.0065643E-25       
++WUB1     = 6.1348050E-25       PUB1     = -2.3489589E-31      UC1      = 4.8751200E-11       
++LUC1     = -1.0675619E-17      WUC1     = 4.7864960E-17       PUC1     = -1.9370043E-25      
++KT1L     = 0.00                PRT      = 0   
+*
+* CAPACITANCE PARAMETERS
+*
++CJ       = 1.03531E-06         MJ       = 0.3954951           PB       = 0.8049122           
++CJSW     = 2.23115E-13         MJSW     = 0.2573111           PBSW     = 0.8049122           
++CJSWG    = 2.345762E-13        MJSWG    = 0.2573111           PBSWG    = 0.8049122           
++TPB      = 1.625007E-03        TPBSW    = 1.625007E-03        TCJ      = 9.940197E-04        
++TCJSW    = 6.908749E-04        JS       = 3.10E-06            JSW      = 2.80E-11            
++NJ       = 1.0                 XTI      = 3.0                 CGDO     = 1.218E-10            
++CGSO     = 1.218E-10           CGBO     = 1.0E-13             CAPMOD   = 3                   
++NQSMOD   = 0                   ELM      = 0                   XPART    = 0             
++CF       = 0              
++TLEV    = 1              TLEVC    = 1              CALCACM  = 1              
+*********added AC parameters*****
++WWC=0.0342
++DLC=4.847E-8
++DWC=-2.064E-8 
++NOFF=1.847        LNOFF=1.5E-7
++ACDE=1.258
++MOIN=10
++VOFFCV= -0.045 
++CGSL=3.44e-10 
++CGDL=3.44e-10 
++WCF= 4.066E-17
+*
+* NOISE PARAMETERS
+*
++Noimod = 2        NOIA    = 2.0E+19    NOIB=8.0E+3     NOIC  = 5.4E-12
++EM       = 3.0E+07        EF       =1.094       
+
+
+
+
+
+
+.param A1N_RF3=0 A1P_RF3=0 A2NP_RF3=0 A3NP_RF3=0 A4NP_RF3=0
++ fac_n_RF3 ='0.3766*3.6'
++ fac_p_RF3 ='0.3766*3.2'
+
++ du0n_RF3='A1N_RF3*fac_n_RF3*(-0.125e-2)'
++ dlu0n_RF3='A1N_RF3*fac_n_RF3*(-1.35e-9)'
++ dwu0n_RF3='A1N_RF3*fac_n_RF3*(-0.25e-9)'
++ dpu0n_RF3='A1N_RF3*fac_n_RF3*(-15e-16)'
++ dvthn_RF3='A1N_RF3*fac_n_RF3*0.0155'
++ dlvthn_RF3='A1N_RF3*fac_n_RF3*6.2e-9'
++ dwvthn_RF3='A1N_RF3*fac_n_RF3*6.0e-9'
++ dpvthn_RF3='A1N_RF3*fac_n_RF3*6.8e-15'
++ toxn_RF3='6.8E-09+A4NP_RF3*fac_n_RF3*2.66e-10*0.5'
++ dxln_RF3='A2NP_RF3*fac_n_RF3*1.33e-8*0.5'
++ dxwn_RF3='A3NP_RF3*fac_n_RF3*2.2e-8*0.5'
++ dk2n_RF3='A1N_RF3*fac_n_RF3*0.008'
++ dlk2n_RF3='A1N_RF3*fac_n_RF3*0.8e-8'
++ dvsatn_RF3= '-A1N_RF3*fac_n_RF3*0.0e4'
++ dwvsatn_RF3= '-A1N_RF3*fac_n_RF3*0.0e-3'
++ deta0n_RF3='0.0*A1N_RF3*fac_n_RF3'
++ dleta0n_RF3='-0.35e-9*0.5*(A1N_RF3*fac_n_RF3-sqrt(A1N_RF3*fac_n_RF3*A1N_RF3*fac_n_RF3+1e-8))'
++ dweta0n_RF3='0'
++ dpeta0n_RF3='-1.5e-16*0.5*(A1N_RF3*fac_n_RF3-sqrt(A1N_RF3*fac_n_RF3*A1N_RF3*fac_n_RF3+1e-8))'
++ dnfactorn_RF3='A1N_RF3*fac_n_RF3*0'
++ dlnfactorn_RF3='A1N_RF3*fac_n_RF3*5e-8'
++ dwnfactorn_RF3='A1N_RF3*fac_n_RF3*0'
++ dpnfactorn_RF3='A1N_RF3*fac_n_RF3*0.0e-15'
++ dvoffn_RF3='-A1N_RF3*fac_n_RF3*0.003'
++ dlvoffn_RF3='-A1N_RF3*fac_n_RF3*1.0e-9'
++ dwvoffn_RF3='-A1N_RF3*fac_n_RF3*0.7e-9'
++ dpvoffn_RF3='-A1N_RF3*fac_n_RF3*1.0e-15'
+
++ du0p_RF3='A1P_RF3*fac_p_RF3*(-0.042e-2)'
++ dlu0p_RF3='A1P_RF3*fac_p_RF3*(-0.135e-9)'
++ dwu0p_RF3='A1P_RF3*fac_p_RF3*(-0.025e-9)'
++ dpu0p_RF3='A1P_RF3*fac_p_RF3*(-0.12e-16)'
++ dvthp_RF3='A1P_RF3*fac_p_RF3*(-0.0175)'
++ dlvthp_RF3='A1P_RF3*fac_p_RF3*(-1.47e-9)'
++ dwvthp_RF3='A1P_RF3*fac_p_RF3*(-1.3e-9)'
++ dpvthp_RF3='A1P_RF3*fac_p_RF3*(-2.3e-15)'
++ toxp_RF3='6.77E-09+A4NP_RF3*fac_p_RF3*2.66e-10*0.5'
++ dxlp_RF3='A2NP_RF3*fac_p_RF3*1.33e-8*0.5'
++ dxwp_RF3='A3NP_RF3*fac_p_RF3*2.2e-8*0.5'
++ dk2p_RF3='A1P_RF3*fac_p_RF3*0.01'
++ dlk2p_RF3='A1P_RF3*fac_p_RF3*0.18e-8'
++ dvsatp_RF3= '-A1P_RF3*fac_p_RF3*0.00e4'
++ dwvsatp_RF3= '-A1P_RF3*fac_p_RF3*0.0e-3'
++ deta0p_RF3='0'
++ dleta0p_RF3='-1e-10*0.5*(A1P_RF3*fac_p_RF3-sqrt(A1P_RF3*fac_p_RF3*A1P_RF3*fac_p_RF3+1e-8))'
++ dweta0p_RF3='0'
++ dpeta0p_RF3='-1.2e-16*0.5*(A1P_RF3*fac_p_RF3-sqrt(A1P_RF3*fac_p_RF3*A1P_RF3*fac_p_RF3+1e-8))'
++ dnfactorp_RF3='A1P_RF3*fac_p_RF3*0'
++ dlnfactorp_RF3='-A1P_RF3*fac_p_RF3*0.5e-8'
++ dwnfactorp_RF3='-A1P_RF3*fac_p_RF3*0'
++ dpnfactorp_RF3='0'
++ dvoffp_RF3='-A1P_RF3*fac_p_RF3*0.000'
++ dlvoffp_RF3='-A1P_RF3*fac_p_RF3*0.0e-8'
++ dwvoffp_RF3='-A1P_RF3*fac_p_RF3*0.0e-8'
++ dpvoffp_RF3='-A1P_RF3*fac_p_RF3*0.0e-15'
+
++cjn_RF3           = 0.0008964788 cjswn_RF3         = 2.50664E-10 
++cjswgn_RF3        = 3.00664E-10  cgon_RF3          = 3.18E-10 
++hdifn_RF3         = 2E-07                  
++rshn_RF3          = 6.8 
++cjp_RF3           = 0.00103531   cjswp_RF3         = 2.23115E-10 
++cjswgp_RF3        = 2.345762E-10 cgop_RF3          = 2.77E-10
++hdifp_RF3         = 2E-07        
++rshp_RF3          = 7.2        
+
+
+
