@@ -138,8 +138,8 @@ class optimizer():
             print("(x*,y*) = (", x_star, ",", y_star, ")")
             print("exe_num:", self.num_sim)
             print("cost:", time.time()-start, "s")
-            # np.savetxt(".\\algorithm_result\\sa_history.txt", sa.best_y_history)
-            # np.savetxt(".\\algorithm_result\\sa_best_x.txt", x_star)
+            np.savetxt(".\\algorithm_result\\sa_history.txt", sa.best_y_history)
+            np.savetxt(".\\algorithm_result\\sa_best_x.txt", x_star)
             # plt.plot(pd.DataFrame(sa.best_y_history).cummin(axis=0))
             # plt.show()
             self.best_x, self.best_y = x_star, y_star
@@ -173,8 +173,8 @@ class optimizer():
             print("(x*,y*) = (", x_star, ",", y_star, ")")
             print("exe_num:", self.num_sim)
             print("cost:", time.time()-start, "s")
-            # np.savetxt(".\\algorithm_result\\de_history.txt", de.all_history_Y)
-            # np.savetxt(".\\algorithm_result\\de_best_x.txt", x_star)
+            np.savetxt(".\\algorithm_result\\de_history.txt", de.all_history_Y)
+            np.savetxt(".\\algorithm_result\\de_best_x.txt", x_star)
             # plt.plot(pd.DataFrame(de.all_history_Y).cummin(axis=0))
             # plt.show()
             self.best_x, self.best_y = x_star, y_star
@@ -215,8 +215,8 @@ class optimizer():
             print('best_x:', x_star, '\n', 'best_y:', y_star)
             print("exe_num:", self.num_sim)
             print("cost:", time.time()-start, "s")
-            # np.savetxt(".\\algorithm_result\\ga_history.txt", ga.all_history_Y)
-            # np.savetxt(".\\algorithm_result\\ga_best_x.txt", x_star)
+            np.savetxt(".\\algorithm_result\\ga_history.txt", ga.all_history_Y)
+            np.savetxt(".\\algorithm_result\\ga_best_x.txt", x_star)
             # Plot the result
             # Y_history = pd.DataFrame(ga.all_history_Y)
             # print(Y_history)
@@ -253,8 +253,8 @@ class optimizer():
             print('best_x is ', self.Nor2Real(pso.gbest_x), 'best_y is', pso.gbest_y)
             print("exe_num:", self.num_sim)
             print("cost:", time.time()-start, "s")
-            # np.savetxt(".\\algorithm_result\\c"+str(circle)+"_pso_history.txt", pso.gbest_y_hist)
-            # np.savetxt(".\\algorithm_result\\c"+str(circle)+"_pso_best_x.txt", Nor2Real(pso.gbest_x))
+            np.savetxt(".\\algorithm_result\\pso_history.txt", pso.gbest_y_hist)
+            np.savetxt(".\\algorithm_result\\pso_best_x.txt", self.Nor2Real(pso.gbest_x))
             # Plot the result
             # plt.plot(pso.gbest_y_hist, color='red')
             # plt.show()
@@ -284,20 +284,27 @@ class optimizer():
                 stri = "x" + str(i)
                 x_nor.append(study.best_params[stri])
             x_real = self.Nor2Real(x_nor)
+
             bo_history = []
+            bo_tmp = 1E9
             for tr in study.trials:
-                bo_history.append(tr.values)
+                if(tr.values[0] < bo_tmp):
+                    bo_tmp = tr.values[0]
+                bo_history.append(bo_tmp)
+            
+            print("bo_history:", bo_history)
+
             print("best_x:", x_real)
             print("best_value", study.best_value)
             print("exe_num:", self.num_sim)
             print("cost:", time.time()-start, "s")
-            # np.savetxt(".\\algorithm_result\\c"+str(circle)+"_bo_history.txt", bo_history)
-            # np.savetxt(".\\algorithm_result\\c"+str(circle)+"_bo_best_x.txt", x_real)
+            np.savetxt(".\\algorithm_result\\bo_history.txt", bo_history)
+            np.savetxt(".\\algorithm_result\\bo_best_x.txt", x_real)
             # plt.plot(bo_history)
             # plt.show()
             self.best_x, self.best_y = x_real, study.best_value
-            self.history_min = bo_history
-            self.history_iter = np.linspace(start=1, stop=self.history_min, num=len(self.history_min))
+            self.history_min = bo_history # [i for d2 in bo_history for d1 in d2 for i in d1]
+            self.history_iter = np.linspace(start=1, stop=len(self.history_min), num=len(self.history_min))
         
         elif(self.sim_sel == "PSOGA"):
             from Algorithm import PSO_GA
@@ -320,8 +327,8 @@ class optimizer():
             print('best_x is ', self.Nor2Real(pso_ga.gbest_x), 'best_y is', pso_ga.gbest_y)
             print("exe_num:", self.num_sim)
             print("cost:", time.time()-start, "s")
-            # np.savetxt(".\\algorithm_result\\c"+str(circle)+"_psoga_history.txt", pso_ga.gbest_y_hist)
-            # np.savetxt(".\\algorithm_result\\c"+str(circle)+"_psoga_best_x.txt", Nor2Real(pso_ga.gbest_x))
+            np.savetxt(".\\algorithm_result\\psoga_history.txt", pso_ga.gbest_y_hist)
+            np.savetxt(".\\algorithm_result\\psoga_best_x.txt", self.Nor2Real(pso_ga.gbest_x))
             # plt.plot(pso_ga.gbest_y_hist, color='green')
             # plt.show()
             self.best_x, self.best_y = self.Nor2Real(pso_ga.gbest_x), pso_ga.gbest_y
@@ -369,9 +376,9 @@ class optimizer():
             ngopt.run()
             print(self.Nor2Real(ngopt.x_best), ngopt.y_best)
             # print(ngopt.x_best, ngopt.y_best)
-            # np.savetxt(".\\algorithm_result\\c"+str(circle)+"_gang_ga.txt", ga.generation_best_Y)
-            # np.savetxt(".\\algorithm_result\\c"+str(circle)+"_gang_history.txt", ngopt.y_history)
-            # np.savetxt(".\\algorithm_result\\c"+str(circle)+"_gang_best_x.txt", Nor2Real(ngopt.x_best))
+            np.savetxt(".\\algorithm_result\\gang_ga.txt", ga.generation_best_Y)
+            np.savetxt(".\\algorithm_result\\gang_history.txt", ngopt.y_history)
+            np.savetxt(".\\algorithm_result\\gang_best_x.txt", self.Nor2Real(ngopt.x_best))
             # Y_history = pd.DataFrame(ga.all_history_Y)
             # Y_history.min(axis=1).cummin().plot(kind='line', color='orange')
             # plt.plot(pd.DataFrame(ngopt.y_history).cummin(), color="orange")
@@ -388,10 +395,6 @@ class optimizer():
             # print(self.history_min.s)
             self.history_iter = list(np.linspace(start=ga.size_pop, stop=ga.size_pop*ga.max_iter, num=len(ga_his))) + \
                                 list(np.linspace(start=ga.size_pop*ga.max_iter+1, stop=ga.size_pop*ga.max_iter+len(ng_his), num=len(ng_his)))
-
-            
-
-
             
         # ------------------------------------ 测试 -----------------------------------------#
         else:

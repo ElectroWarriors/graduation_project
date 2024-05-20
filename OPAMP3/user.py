@@ -28,7 +28,7 @@ def CircuitParameter_to_Variable(a_Width_nm=my_Width_nm, R=my_R0, C=my_Cc):
 
 
 def Variable_to_CircuitParameter(Variable):
-    a_Width_nm = my_Length_nm.copy()
+    a_Width_nm = my_Width_nm.copy()
     R = my_R0
     Cc = my_Cc
     a_Width_nm[0] = a_Width_nm[1] = Variable[0]

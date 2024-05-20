@@ -27,6 +27,7 @@ class Worker(QThread):
         self.optimizer.optimize()
         self.iter = self.optimizer.history_iter
         self.hisy = self.optimizer.history_min
+        print(self.iter)
         print(self.hisy)
         # plt.plot(self.iter, self.hisy)
         # plt.show()

@@ -1,0 +1,79 @@
+* C:\Users\HJH\Desktop\simulator\based_on_python\OPAMP3\simfile\opamp.asc
+M14 N010 N010 0 0 smic18n33 l=l_m14 w=w_m14
+M13 N008 N010 0 0 smic18n33 l=l_m13 w=w_m13
+M12 N010 N008 N007 N007 smic18p33 l=l_m12 w=w_m12
+M10 N007 N005 N004 N004 smic18p33 l=l_m10 w=w_m10
+M11 N008 N008 N005 N005 smic18p33 l=l_m11 w=w_m11
+M9 N005 N005 VDD VDD smic18p33 l=l_m9 w=w_m9
+R0 VDD N004 30500
+M4 N009 N010 0 0 smic18n33 l=l_m4 w=w_m4
+M0 N001 Vinp N009 0 smic18n33 l=l_m0 w=w_m0
+M1 N002 Vinn N009 0 smic18n33 l=l_m1 w=w_m1
+M2 N002 N001 VDD VDD smic18p33 l=l_m2 w=w_m2
+M3 N001 N001 VDD VDD smic18p33 l=l_m3 w=w_m3
+M6 N006 N010 0 0 smic18n33 l=l_m6 w=w_m6
+M5 N006 N002 VDD VDD smic18p33 l=l_m5 w=w_m5
+V1 Vinp 0 2.2 AC 10u
+V2 Vinn 0 2.2 AC -10u
+V3 VDD 0 3.3
+CL Vout 0 3p
+M7 VDD N006 Vout 0 smic18n33 l=l_m7 w=w_m7
+M8 Vout N011 0 0 smic18n33 l=l_m8 w=w_m8
+M17 N003 N010 0 0 smic18n33 l=l_m17 w=w_m17
+M18 N011 N011 0 0 smic18n33 l=l_m18 w=w_m18
+M15 N003 N003 VDD VDD smic18p33 l=l_m15 w=w_m15
+M16 N011 N003 VDD VDD smic18p33 l=l_m16 w=w_m16
+Cc N006 N002 5.535482293992271e-13
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\HJH\AppData\Local\LTspice\lib\cmp\standard.mos
+* .op
+.include C:/Users/HJH/Desktop/simulator/based_on_python/OPAMP3/simfile/model\smic18_mos_model.lib
+.PARAM l_m0=720n  ; Batch instruction
+.PARAM w_m0=5363.486096939977n  ; Batch instruction
+.PARAM l_m1=720n  ; Batch instruction
+.PARAM w_m1=5363.486096939977n  ; Batch instruction
+.PARAM l_m2=720n  ; Batch instruction
+.PARAM w_m2=5090.489434246885n  ; Batch instruction
+.PARAM l_m3=720n  ; Batch instruction
+.PARAM w_m3=5090.489434246885n  ; Batch instruction
+.PARAM l_m4=720n  ; Batch instruction
+.PARAM w_m4=5516.1083853172295n  ; Batch instruction
+.PARAM l_m5=720n  ; Batch instruction
+.PARAM w_m5=87825.57932254966n  ; Batch instruction
+.PARAM l_m6=720n  ; Batch instruction
+.PARAM w_m6=47684.51220110899n  ; Batch instruction
+.PARAM l_m7=720n  ; Batch instruction
+.PARAM w_m7=83402.62623392536n  ; Batch instruction
+.PARAM l_m8=720n  ; Batch instruction
+.PARAM w_m8=6198.3693618297n  ; Batch instruction
+.PARAM l_m9=540n  ; Batch instruction
+.PARAM w_m9=1683n  ; Batch instruction
+.PARAM l_m10=540n  ; Batch instruction
+.PARAM w_m10=20197n  ; Batch instruction
+.PARAM l_m11=720n  ; Batch instruction
+.PARAM w_m11=1683n  ; Batch instruction
+.PARAM l_m12=720n  ; Batch instruction
+.PARAM w_m12=1683n  ; Batch instruction
+.PARAM l_m13=720n  ; Batch instruction
+.PARAM w_m13=2973.9272523930804n  ; Batch instruction
+.PARAM l_m14=720n  ; Batch instruction
+.PARAM w_m14=2973.9272523930804n  ; Batch instruction
+.PARAM l_m15=720n  ; Batch instruction
+.PARAM w_m15=7225.143419998034n  ; Batch instruction
+.PARAM l_m16=720n  ; Batch instruction
+.PARAM w_m16=7225.143419998034n  ; Batch instruction
+.PARAM l_m17=720n  ; Batch instruction
+.PARAM w_m17=2973.9272523930804n  ; Batch instruction
+.PARAM l_m18=720n  ; Batch instruction
+.PARAM w_m18=1096.6731380981823n  ; Batch instruction
+.op
+.ac oct 100 1 1G
+.meas AC Vo0_A FIND mag(V(Vout)) AT 1
+.meas AC BW TRIG mag(V(Vout))=Vo0_A TARG mag(V(Vout))=Vo0_A/sqrt(2) FALL=1
+.meas GBW TARG mag(V(Vout)/V(Vinp)/2)=1 FALL=1
+.meas AC Vo0 FIND V(Vout) AT 1
+.meas AC delta_phase FIND Vo0_A/V(Vout) WHEN mag(V(Vout)/V(Vinp)/2)=1
+.meas AC V(Vout)/V(Vinp)/2
+.backanno
+.end
