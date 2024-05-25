@@ -138,7 +138,7 @@ class Ui_MainWindow(object):
         self.SimMethod.setItemText(4, QCoreApplication.translate("MainWindow", u"BO", None))
         self.SimMethod.setItemText(5, QCoreApplication.translate("MainWindow", u"PSOGA", None))
         self.SimMethod.setItemText(6, QCoreApplication.translate("MainWindow", u"GANG", None))
-
+        
         self.label_2.setText(QCoreApplication.translate("MainWindow", u"\u5de5\u827a\u5e93", None))
         self.Library.setItemText(0, QCoreApplication.translate("MainWindow", u"smic18", None))
         self.Library.setItemText(1, QCoreApplication.translate("MainWindow", u"tsmc18", None))

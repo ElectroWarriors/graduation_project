@@ -25,7 +25,7 @@ class optimizer():
         self.dimension = len(lb)
         self.lb_nor, self.ub_nor = 0, 40
         self.nor_to = self.ub_nor - self.lb_nor
-
+        
         self.num_sim = 0
 
         self.sim_sel = sim_sel

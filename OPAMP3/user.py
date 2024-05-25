@@ -25,7 +25,7 @@ def CircuitParameter_to_Variable(a_Width_nm=my_Width_nm, R=my_R0, C=my_Cc):
     x.append(a_Width_nm[18])
     x.append(C)
     return x
-
+    
 
 def Variable_to_CircuitParameter(Variable):
     a_Width_nm = my_Width_nm.copy()

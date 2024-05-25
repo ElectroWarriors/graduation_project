@@ -24,7 +24,7 @@ class MOS_Operating_Point:
             return self.data[mosx][argx]
         else:
             return None
-        
+            
 
 
 class Simulator:
