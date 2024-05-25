@@ -275,7 +275,7 @@ class optimizer():
             start = time.time()
             study.optimize(
                 self.BO_objFunc, 
-                n_trials=2000
+                n_trials=10
                 )
             print("best_trial", study.best_trial)
             print("best_params", study.best_params)

@@ -1,0 +1,209 @@
+LTspice 24.0.9 for Windows
+Circuit: * C:\Users\HJH\Desktop\simulator\based_on_python\OPAMP3\simfile\opamp.asc
+Start Time: Sat May 25 07:13:19 2024
+Ignoring BSIM parameter CALCACM
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter ACM
+Ignoring BSIM parameter LDIF
+Ignoring BSIM parameter HDIF
+Ignoring BSIM parameter TLEVC
+Ignoring BSIM parameter CALCACM
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter ACM
+Ignoring BSIM parameter LDIF
+Ignoring BSIM parameter HDIF
+Ignoring BSIM parameter TLEVC
+Error on line 1238 : .model smic18p33 pmos level = 49 calcacm = 1 lmin = 2.6e-7 lmax = 1.0e-5 wmin = 1.9e-7 wmax = 1.0e-4 tnom = 25.0 version = 3.24 tox =  6.62e-09  toxm = 6.62e-09 xj = 1.7000001e-07 nch = 5.4852000e+17 lln = 1.0471729 lwn = 0.9530895 wln = 1.0257638 wwn = 0.9617700 lint = 3.5000000e-08 ll = 5.5000000e-15 lw = -4.7160380e-14 lwl = 7.0054450e-22 wint = 1.3000000e-08 wl = -3.1491245e-14 ww = 2.3000000e-15 wwl = -2.4167156e-22 mobmod = 1 binunit = 2 xl =  -1.7e-08  xw =  0  dwg = 0.00 dwb = 8.6000000e-09 acm = 12 ldif = 6.50e-08 hdif = 2.05e-07 rsh = 9.8 rd = 0 rs = 0 rsc = 1 rdc = 1 vth0 =  -0.672  wvth0 = 4.0000000e-09 pvth0 =  6e-15  k1 = 0.9145741 pk1 = -1.7000000e-14 k2 = 4.1276220e-02 k3 = 0.1293833 dvt0 = 1.8000000 dvt1 = 0.7100000 dvt2 = -7.0000000e-02 dvt0w = 0.00 dvt1w = 0.00 dvt2w = 0.00 nlx = 1.2000000e-08 w0 = 1.0021131e-09 k3b = 0.4000000 ngate = 1.1600000e+20 vsat = 8.5500000e+04 pvsat = -5.8000000e-09 ua = 3.1500000e-10 lua = 1.5000001e-17 wua = -1.6763224e-16 pua = -1.1000000e-23 ub = 1.0444180e-18 lub = -7.0000000e-27 uc = -3.5000000e-11 luc = 4.0000000e-18 puc = 5.0000000e-24 rdsw = 9.5000000e+02 prwb = 0.00 prwg = 6.3755660e-03 wr = 1.0000000 u0 = 9.2500000e-03 lu0 = -4.1500680e-10 wu0 = -1.7001526e-12 pu0 = -3.7999640e-16 a0 = 0.8500000 keta = 1.5000000e-02 lketa = -1.0000000e-08 wketa = 1.0000000e-09 pketa = -6.0000000e-15 a1 = 0.00 a2 = 0.9900000 ags = 4.0000000e-02 b0 = 4.6000000e-08 b1 = 0.00 voff = -0.1000000 lvoff = 1.8000000e-09 pvoff = -2.9999999e-15 nfactor = 1.1000000 pnfactor = -4.0000000e-14 cit = 1.9999999e-04 cdsc = 4.5263850e-05 cdscb = 0.00 cdscd = 0.00 eta0 = 5.0000000e-03 peta0 = 7.0000000e-15 etab = -1.5000000e-02 petab = -2.0000000e-15 dsub = 0.5800000 pclm = 0.6000000 ppclm = 1.3000000e-13 pdiblc1 = 6.0000000e-03 pdiblc2 = 2.5000001e-04 wpdiblc2 = 8.0000000e-11 pdiblcb = 0.00 drout = 0.5600000 pscbe1 = 3.3000000e+08 ppscbe1 = -7.0000000e-06 pscbe2 = 2.0000000e-07 pvag = 0.00 delta = 8.0000000e-03 pdelta = 4.0000000e-16 alpha0 = 1.3410400e-06 alpha1 = 5.6136910e-02 beta0 = 27.5998000 kt1 = -0.3840900 wkt1 = -9.4333370e-10 pkt1 = 4.9999980e-15 kt2 = -4.1563480e-02 at = -2.0000000e+03 pat = -7.5000000e-09 ute = -1.3236057 ua1 = 3.0000002e-10 wua1 = 8.0000000e-18 pua1 = 1.0000000e-23 ub1 = -2.0704662e-18 wub1 = 1.4000000e-25 uc1 = -5.0000000e-11 kt1l = -6.0000000e-09 prt = 1.3000000e+02 noimod = 2 noia = 3.5911e+19 noib = 3.0215e+03 noic = 6.7064e-12 em = 4.2400e+07 ef = 1.0829e+00 cj =  0.00101  mj = 0.401 pb = 0.807 cjsw =  8.96e-11  mjsw = 0.45 pbsw = 1 cjswg =  3.19e-10  mjswg = 0.45 pbswg = 1 tpb = 0.00157 tpbsw = 0.00137 tpbswg = 0.00137 tcj = 0.000883 tcjsw = 0.000709 tcjswg = 0.000709 js = 1.68e-07 jsw = 4.0e-13 nj = 1.07 xti = 3.0 nqsmod = 0 elm = 5 cgdo =  3.23e-10  cgso =  3.23e-10  tlevc = 1 capmod = 3 xpart = 1 cf = 0.00 acde = 0.55 moin = 15 noff = 0.565 dlc = 7.0e-09 dwc = 6.0e-8
+	* Unrecognized parameter "rsc" -- ignored
+Error on line 1238 : .model smic18p33 pmos level = 49 calcacm = 1 lmin = 2.6e-7 lmax = 1.0e-5 wmin = 1.9e-7 wmax = 1.0e-4 tnom = 25.0 version = 3.24 tox =  6.62e-09  toxm = 6.62e-09 xj = 1.7000001e-07 nch = 5.4852000e+17 lln = 1.0471729 lwn = 0.9530895 wln = 1.0257638 wwn = 0.9617700 lint = 3.5000000e-08 ll = 5.5000000e-15 lw = -4.7160380e-14 lwl = 7.0054450e-22 wint = 1.3000000e-08 wl = -3.1491245e-14 ww = 2.3000000e-15 wwl = -2.4167156e-22 mobmod = 1 binunit = 2 xl =  -1.7e-08  xw =  0  dwg = 0.00 dwb = 8.6000000e-09 acm = 12 ldif = 6.50e-08 hdif = 2.05e-07 rsh = 9.8 rd = 0 rs = 0 rsc = 1 rdc = 1 vth0 =  -0.672  wvth0 = 4.0000000e-09 pvth0 =  6e-15  k1 = 0.9145741 pk1 = -1.7000000e-14 k2 = 4.1276220e-02 k3 = 0.1293833 dvt0 = 1.8000000 dvt1 = 0.7100000 dvt2 = -7.0000000e-02 dvt0w = 0.00 dvt1w = 0.00 dvt2w = 0.00 nlx = 1.2000000e-08 w0 = 1.0021131e-09 k3b = 0.4000000 ngate = 1.1600000e+20 vsat = 8.5500000e+04 pvsat = -5.8000000e-09 ua = 3.1500000e-10 lua = 1.5000001e-17 wua = -1.6763224e-16 pua = -1.1000000e-23 ub = 1.0444180e-18 lub = -7.0000000e-27 uc = -3.5000000e-11 luc = 4.0000000e-18 puc = 5.0000000e-24 rdsw = 9.5000000e+02 prwb = 0.00 prwg = 6.3755660e-03 wr = 1.0000000 u0 = 9.2500000e-03 lu0 = -4.1500680e-10 wu0 = -1.7001526e-12 pu0 = -3.7999640e-16 a0 = 0.8500000 keta = 1.5000000e-02 lketa = -1.0000000e-08 wketa = 1.0000000e-09 pketa = -6.0000000e-15 a1 = 0.00 a2 = 0.9900000 ags = 4.0000000e-02 b0 = 4.6000000e-08 b1 = 0.00 voff = -0.1000000 lvoff = 1.8000000e-09 pvoff = -2.9999999e-15 nfactor = 1.1000000 pnfactor = -4.0000000e-14 cit = 1.9999999e-04 cdsc = 4.5263850e-05 cdscb = 0.00 cdscd = 0.00 eta0 = 5.0000000e-03 peta0 = 7.0000000e-15 etab = -1.5000000e-02 petab = -2.0000000e-15 dsub = 0.5800000 pclm = 0.6000000 ppclm = 1.3000000e-13 pdiblc1 = 6.0000000e-03 pdiblc2 = 2.5000001e-04 wpdiblc2 = 8.0000000e-11 pdiblcb = 0.00 drout = 0.5600000 pscbe1 = 3.3000000e+08 ppscbe1 = -7.0000000e-06 pscbe2 = 2.0000000e-07 pvag = 0.00 delta = 8.0000000e-03 pdelta = 4.0000000e-16 alpha0 = 1.3410400e-06 alpha1 = 5.6136910e-02 beta0 = 27.5998000 kt1 = -0.3840900 wkt1 = -9.4333370e-10 pkt1 = 4.9999980e-15 kt2 = -4.1563480e-02 at = -2.0000000e+03 pat = -7.5000000e-09 ute = -1.3236057 ua1 = 3.0000002e-10 wua1 = 8.0000000e-18 pua1 = 1.0000000e-23 ub1 = -2.0704662e-18 wub1 = 1.4000000e-25 uc1 = -5.0000000e-11 kt1l = -6.0000000e-09 prt = 1.3000000e+02 noimod = 2 noia = 3.5911e+19 noib = 3.0215e+03 noic = 6.7064e-12 em = 4.2400e+07 ef = 1.0829e+00 cj =  0.00101  mj = 0.401 pb = 0.807 cjsw =  8.96e-11  mjsw = 0.45 pbsw = 1 cjswg =  3.19e-10  mjswg = 0.45 pbswg = 1 tpb = 0.00157 tpbsw = 0.00137 tpbswg = 0.00137 tcj = 0.000883 tcjsw = 0.000709 tcjswg = 0.000709 js = 1.68e-07 jsw = 4.0e-13 nj = 1.07 xti = 3.0 nqsmod = 0 elm = 5 cgdo =  3.23e-10  cgso =  3.23e-10  tlevc = 1 capmod = 3 xpart = 1 cf = 0.00 acde = 0.55 moin = 15 noff = 0.565 dlc = 7.0e-09 dwc = 6.0e-8
+	* Unrecognized parameter "rdc" -- ignored
+Error on line 1237 : .model smic18n33 nmos level = 49 calcacm = 1 lmin = 3.0e-7 lmax = 1.0e-5 wmin = 1.9e-7 wmax = 1.0e-4 tnom = 25.0 version = 3.24 tox =  6.65e-09  toxm = 6.65e-09 xj = 1.6000000e-07 nch = 4.3441000e+17 lln = 1.0625758 lwn = 1.0101005 wln = 0.9810000 wwn = 0.9060000 lint = 6.3891300e-08 ll = -2.3305548e-15 lw = -2.4634918e-15 lwl = 2.6243002e-24 wint = 3.5850000e-08 wl = -1.8902563e-15 ww = -1.3000000e-14 wwl = -1.3027796e-20 mobmod = 1 binunit = 2 xl =  1e-08  xw =  0  dwg = -3.9100000e-09 dwb = 3.2000000e-09 acm = 12 ldif = 6.50e-08 hdif = 2.05e-07 rsh = 7.08 rd = 0 rs = 0 rsc = 1.6 rdc = 1.6 vth0 =  0.695  lvth0 = 4.0100000e-10 wvth0 = 1.0200000e-08 pvth0 =  8e-16  k1 = 0.8451000 lk1 = 5.8182560e-10 wk1 = -6.2456240e-09 pk1 = 1.9938927e-15 k2 = 4.4575000e-02 k3 = -3.8500000 dvt0 = 9.4991400 ldvt0 = 8.0839730e-09 dvt1 = 0.6300000 ldvt1 = 5.5000000e-08 dvt2 = -0.1450000 dvt0w = 0.00 dvt1w = 0.1057000 dvt2w = 0.00 nlx = 2.0274594e-07 lnlx = -2.8608589e-14 w0 = 0.00 k3b = 0.5669292 ngate = 2.6812141e+21 vsat = 8.5000000e+04 lvsat = -1.7300000e-03 pvsat = 1.2000000e-10 ua = -8.6001130e-10 ub = 2.3000001e-18 uc = 1.3100000e-10 puc = 5.0000000e-25 rdsw = 2.4208382e+02 prwb = -8.5000000e-02 prwg = 3.8000000e-02 wr = 1.0000000 u0 = 3.5000000e-02 lu0 = 5.0000000e-10 a0 = 1.0200000 la0 = -1.2000000e-07 keta = 0.00 lketa = -1.4000000e-08 wketa = -1.9999999e-09 pketa = 1.0000000e-15 a1 = 0.00 a2 = 0.9900000 ags = 0.1700000 b0 = 1.0000000e-08 b1 = 0.00 voff = -0.1200000 nfactor = 1.1000000 lnfactor = 4.0000000e-08 pnfactor = -1.4000000e-14 cit = 1.0000000e-04 cdsc = 5.0000000e-04 cdscb = 0.00 cdscd = 0.00 eta0 = 4.0000000e-02 peta0 = 3.0000001e-16 etab = -0.1000000 dsub = 0.6000000 pclm = 0.8000000 lpclm = 5.0000000e-08 ppclm = 8.0000000e-15 pdiblc1 = 9.0000000e-02 pdiblc2 = 1.6000000e-03 ppdiblc2 = -7.0000000e-17 pdiblcb = 0.00 drout = 0.5987002 pscbe1 = 3.4000000e+08 lpscbe1 = 13.0000000 pscbe2 = 3.8000000e-06 pvag = 0.00 delta = 1.0000000e-02 alpha0 = -4.4760000e-08 alpha1 = 0.8998877 beta0 = 18.8771250 lbeta0 = -5.7118000e-07 kt1 = -0.3250000 pkt1 = -2.3708420e-15 kt2 = -3.6844640e-02 at = 2.2000000e+04 ute = -1.4100000 ua1 = 2.0599999e-09 wua1 = -1.2600000e-16 pua1 = -1.0000000e-24 ub1 = -2.5000000e-18 wub1 = 1.1000000e-25 uc1 = -1.1000000e-10 luc1 = 1.6999999e-17 kt1l = -5.0000000e-09 prt = 40.0000000 noimod = 2 noia = 1.5500e+20 noib = 7.1866e+04 noic = 1.4952e-13 em = 3.2163e+07 ef = 9.9600e-01 cj =  0.000845  mj = 0.321 pb = 0.708 cjsw =  9.15e-11  mjsw = 0.447 pbsw = 1 cjswg =  3.41e-10  mjswg = 0.447 pbswg = 1 tpb = 0.00166 tpbsw = 0.00162 tpbswg = 0.00162 tcj = 0.000897 tcjsw = 0.000695 tcjswg = 0.000695 js = 3.65e-07 jsw = 3.0e-13 nj = 1.04 xti = 3.9 nqsmod = 0 elm = 5 cgdo =  3.86e-10  cgso =  3.86e-10  tlevc = 1 capmod = 3 xpart = 1 cf = 0.00 acde = 0.45 moin = 24 noff = 2.3177 dlc = 6.50e-08
+	* Unrecognized parameter "rsc" -- ignored
+Error on line 1237 : .model smic18n33 nmos level = 49 calcacm = 1 lmin = 3.0e-7 lmax = 1.0e-5 wmin = 1.9e-7 wmax = 1.0e-4 tnom = 25.0 version = 3.24 tox =  6.65e-09  toxm = 6.65e-09 xj = 1.6000000e-07 nch = 4.3441000e+17 lln = 1.0625758 lwn = 1.0101005 wln = 0.9810000 wwn = 0.9060000 lint = 6.3891300e-08 ll = -2.3305548e-15 lw = -2.4634918e-15 lwl = 2.6243002e-24 wint = 3.5850000e-08 wl = -1.8902563e-15 ww = -1.3000000e-14 wwl = -1.3027796e-20 mobmod = 1 binunit = 2 xl =  1e-08  xw =  0  dwg = -3.9100000e-09 dwb = 3.2000000e-09 acm = 12 ldif = 6.50e-08 hdif = 2.05e-07 rsh = 7.08 rd = 0 rs = 0 rsc = 1.6 rdc = 1.6 vth0 =  0.695  lvth0 = 4.0100000e-10 wvth0 = 1.0200000e-08 pvth0 =  8e-16  k1 = 0.8451000 lk1 = 5.8182560e-10 wk1 = -6.2456240e-09 pk1 = 1.9938927e-15 k2 = 4.4575000e-02 k3 = -3.8500000 dvt0 = 9.4991400 ldvt0 = 8.0839730e-09 dvt1 = 0.6300000 ldvt1 = 5.5000000e-08 dvt2 = -0.1450000 dvt0w = 0.00 dvt1w = 0.1057000 dvt2w = 0.00 nlx = 2.0274594e-07 lnlx = -2.8608589e-14 w0 = 0.00 k3b = 0.5669292 ngate = 2.6812141e+21 vsat = 8.5000000e+04 lvsat = -1.7300000e-03 pvsat = 1.2000000e-10 ua = -8.6001130e-10 ub = 2.3000001e-18 uc = 1.3100000e-10 puc = 5.0000000e-25 rdsw = 2.4208382e+02 prwb = -8.5000000e-02 prwg = 3.8000000e-02 wr = 1.0000000 u0 = 3.5000000e-02 lu0 = 5.0000000e-10 a0 = 1.0200000 la0 = -1.2000000e-07 keta = 0.00 lketa = -1.4000000e-08 wketa = -1.9999999e-09 pketa = 1.0000000e-15 a1 = 0.00 a2 = 0.9900000 ags = 0.1700000 b0 = 1.0000000e-08 b1 = 0.00 voff = -0.1200000 nfactor = 1.1000000 lnfactor = 4.0000000e-08 pnfactor = -1.4000000e-14 cit = 1.0000000e-04 cdsc = 5.0000000e-04 cdscb = 0.00 cdscd = 0.00 eta0 = 4.0000000e-02 peta0 = 3.0000001e-16 etab = -0.1000000 dsub = 0.6000000 pclm = 0.8000000 lpclm = 5.0000000e-08 ppclm = 8.0000000e-15 pdiblc1 = 9.0000000e-02 pdiblc2 = 1.6000000e-03 ppdiblc2 = -7.0000000e-17 pdiblcb = 0.00 drout = 0.5987002 pscbe1 = 3.4000000e+08 lpscbe1 = 13.0000000 pscbe2 = 3.8000000e-06 pvag = 0.00 delta = 1.0000000e-02 alpha0 = -4.4760000e-08 alpha1 = 0.8998877 beta0 = 18.8771250 lbeta0 = -5.7118000e-07 kt1 = -0.3250000 pkt1 = -2.3708420e-15 kt2 = -3.6844640e-02 at = 2.2000000e+04 ute = -1.4100000 ua1 = 2.0599999e-09 wua1 = -1.2600000e-16 pua1 = -1.0000000e-24 ub1 = -2.5000000e-18 wub1 = 1.1000000e-25 uc1 = -1.1000000e-10 luc1 = 1.6999999e-17 kt1l = -5.0000000e-09 prt = 40.0000000 noimod = 2 noia = 1.5500e+20 noib = 7.1866e+04 noic = 1.4952e-13 em = 3.2163e+07 ef = 9.9600e-01 cj =  0.000845  mj = 0.321 pb = 0.708 cjsw =  9.15e-11  mjsw = 0.447 pbsw = 1 cjswg =  3.41e-10  mjswg = 0.447 pbswg = 1 tpb = 0.00166 tpbsw = 0.00162 tpbswg = 0.00162 tcj = 0.000897 tcjsw = 0.000695 tcjswg = 0.000695 js = 3.65e-07 jsw = 3.0e-13 nj = 1.04 xti = 3.9 nqsmod = 0 elm = 5 cgdo =  3.86e-10  cgso =  3.86e-10  tlevc = 1 capmod = 3 xpart = 1 cf = 0.00 acde = 0.45 moin = 24 noff = 2.3177 dlc = 6.50e-08
+	* Unrecognized parameter "rdc" -- ignored
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = modified trap
+Warning: LTspice supports BSIM3 version 3.3.0. Your model specified an unrecognized version: 3.24
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: LTspice supports BSIM3 version 3.3.0. Your model specified an unrecognized version: 3.24
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: LTspice supports BSIM3 version 3.3.0. Your model specified an unrecognized version: 3.24
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: LTspice supports BSIM3 version 3.3.0. Your model specified an unrecognized version: 3.24
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: LTspice supports BSIM3 version 3.3.0. Your model specified an unrecognized version: 3.24
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: LTspice supports BSIM3 version 3.3.0. Your model specified an unrecognized version: 3.24
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: LTspice supports BSIM3 version 3.3.0. Your model specified an unrecognized version: 3.24
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: LTspice supports BSIM3 version 3.3.0. Your model specified an unrecognized version: 3.24
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: LTspice supports BSIM3 version 3.3.0. Your model specified an unrecognized version: 3.24
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: LTspice supports BSIM3 version 3.3.0. Your model specified an unrecognized version: 3.24
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: LTspice supports BSIM3 version 3.3.0. Your model specified an unrecognized version: 3.24
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: LTspice supports BSIM3 version 3.3.0. Your model specified an unrecognized version: 3.24
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: LTspice supports BSIM3 version 3.3.0. Your model specified an unrecognized version: 3.24
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-05
+Gmin = 1.6455e-06
+Gmin = 1.76685e-07
+Gmin = 1.89714e-08
+Gmin = 2.03704e-09
+Gmin = 2.18725e-10
+Gmin = 2.34854e-11
+Gmin = 2.52173e-12
+Gmin = 2.70769e-13
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Semiconductor Device Operating Points:
+                        --- BSIM3 MOSFETS ---
+Name:        m14         m13         m4          m0          m1
+Model:    smic18n33   smic18n33   smic18n33   smic18n33   smic18n33
+Id:        1.01e-05    1.01e-05    2.21e-05    1.10e-05    1.10e-05
+Vgs:       9.31e-01    9.31e-01    9.31e-01    1.38e+00    1.38e+00
+Vds:       9.31e-01    1.05e+00    8.15e-01    1.74e+00    1.74e+00
+Vbs:       0.00e+00    0.00e+00    0.00e+00   -8.15e-01   -8.15e-01
+Vth:       7.84e-01    7.84e-01    7.86e-01    1.11e+00    1.11e+00
+Vdsat:     1.49e-01    1.49e-01    1.47e-01    2.54e-01    2.54e-01
+Gm:        1.04e-04    1.04e-04    2.30e-04    6.79e-05    6.79e-05
+Gds:       3.20e-07    2.90e-07    8.06e-07    1.88e-07    1.88e-07
+Gmb        4.89e-05    4.90e-05    1.09e-04    2.36e-05    2.36e-05
+Cbd:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbs:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgsov:     1.01e-15    1.01e-15    2.28e-15    3.66e-16    3.66e-16
+Cgdov:     1.01e-15    1.01e-15    2.28e-15    3.66e-16    3.66e-16
+Cgbov:     2.26e-16    2.26e-16    2.26e-16    2.28e-16    2.28e-16
+dQgdVgb:   7.68e-15    7.68e-15    1.70e-14    3.09e-15    3.09e-15
+dQgdVdb:  -1.01e-15   -1.01e-15   -2.28e-15   -3.65e-16   -3.65e-16
+dQgdVsb:  -5.67e-15   -5.67e-15   -1.27e-14   -2.36e-15   -2.36e-15
+dQddVgb:  -1.01e-15   -1.01e-15   -2.29e-15   -3.66e-16   -3.66e-16
+dQddVdb:   1.01e-15    1.01e-15    2.28e-15    3.66e-16    3.66e-16
+dQddVsb:   4.57e-18    3.62e-18    1.33e-17    5.43e-19    5.43e-19
+dQbdVgb:  -1.49e-15   -1.49e-15   -3.08e-15   -5.77e-16   -5.77e-16
+dQbdVdb:  -2.50e-19   -1.28e-19   -1.01e-18    8.95e-20    8.95e-20
+dQbdVsb:  -1.57e-15   -1.57e-15   -3.52e-15   -4.15e-16   -4.15e-16
+
+Name:        m6          m7          m8          m17         m18
+Model:    smic18n33   smic18n33   smic18n33   smic18n33   smic18n33
+Id:        2.32e-06    3.32e-12    6.44e-15    1.04e-05    1.06e-05
+Vgs:       9.31e-01    1.06e-03    9.92e-01    9.31e-01    9.92e-01
+Vds:       1.06e-03    3.30e+00    1.05e-11    2.34e+00    9.92e-01
+Vbs:       0.00e+00   -1.05e-11    0.00e+00    0.00e+00    0.00e+00
+Vth:       7.88e-01    7.84e-01    7.87e-01    7.84e-01    7.80e-01
+Vdsat:     1.46e-01    3.96e-02    1.86e-01    1.49e-01    1.91e-01
+Gm:        1.50e-05    1.70e-13    3.10e-14    1.06e-04    8.38e-05
+Gds:       2.17e-03    8.78e-16    6.14e-04    2.60e-07    2.90e-07
+Gmb        7.29e-06    1.01e-13    1.51e-14    5.00e-05    3.92e-05
+Cbd:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbs:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgsov:     1.93e-14    1.13e-15    3.83e-15    1.01e-15    5.92e-16
+Cgdov:     1.93e-14    1.13e-15    3.83e-15    1.01e-15    5.92e-16
+Cgbov:     2.26e-16    2.26e-16    2.26e-16    2.26e-16    2.27e-16
+dQgdVgb:   1.65e-13    5.97e-15    3.46e-14    7.68e-15    4.80e-15
+dQgdVdb:  -8.04e-14   -1.13e-15   -1.67e-14   -1.01e-15   -5.93e-16
+dQgdVsb:  -7.97e-14   -1.13e-15   -1.76e-14   -5.67e-15   -3.62e-15
+dQddVgb:  -7.82e-14   -1.13e-15   -1.68e-14   -1.01e-15   -5.95e-16
+dQddVdb:   1.77e-13    1.13e-15    3.71e-14    1.01e-15    5.93e-16
+dQddVsb:  -6.95e-14    7.08e-23   -1.40e-14    7.17e-19    2.78e-18
+dQbdVgb:  -8.06e-15   -3.70e-15   -1.10e-15   -1.49e-15   -9.17e-16
+dQbdVdb:  -4.39e-14    3.85e-23   -9.27e-15    1.22e-19   -1.93e-19
+dQbdVsb:  -1.10e-14   -5.57e-19   -2.64e-15   -1.57e-15   -9.86e-16
+
+Name:        m12         m10         m11         m9          m2
+Model:    smic18p33   smic18p33   smic18p33   smic18p33   smic18p33
+Id:       -1.01e-05   -1.01e-05   -1.01e-05   -1.01e-05   -1.10e-05
+Vgs:      -1.17e+00   -7.78e-01   -1.17e+00   -1.08e+00   -7.45e-01
+Vds:      -1.28e+00   -7.79e-01   -1.17e+00   -1.08e+00   -7.45e-01
+Vbs:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Vth:      -6.70e-01   -6.79e-01   -6.70e-01   -6.70e-01   -6.77e-01
+Vdsat:    -3.94e-01   -1.13e-01   -3.95e-01   -3.39e-01   -9.33e-02
+Gm:        3.70e-05    1.41e-04    3.70e-05    4.45e-05    1.75e-04
+Gds:       1.76e-07    3.39e-07    2.06e-07    3.23e-07    2.62e-07
+Gmb        1.90e-05    7.27e-05    1.90e-05    2.25e-05    9.08e-05
+Cbd:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbs:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgsov:     5.45e-16    6.54e-15    5.45e-16    5.59e-16    1.62e-14
+Cgdov:     5.45e-16    6.54e-15    5.45e-16    5.59e-16    1.62e-14
+Cgbov:     4.41e-16    3.06e-16    4.41e-16    3.22e-16    4.24e-16
+dQgdVgb:   6.10e-15    4.94e-14    6.10e-15    4.86e-15    1.51e-13
+dQgdVdb:  -5.46e-16   -6.54e-15   -5.46e-16   -5.59e-16   -1.62e-14
+dQgdVsb:  -4.78e-15   -3.80e-14   -4.78e-15   -3.72e-15   -1.16e-13
+dQddVgb:  -5.48e-16   -6.57e-15   -5.49e-16   -5.62e-16   -1.63e-14
+dQddVdb:   5.47e-16    6.55e-15    5.48e-16    5.61e-16    1.62e-14
+dQddVsb:   2.90e-18    4.44e-17    3.58e-18    2.84e-18    1.53e-16
+dQbdVgb:  -1.25e-15   -7.13e-15   -1.25e-15   -9.48e-16   -2.40e-14
+dQbdVdb:  -4.86e-19   -1.34e-18   -6.95e-19   -3.87e-19   -4.81e-18
+dQbdVsb:  -1.46e-15   -1.30e-14   -1.46e-15   -1.07e-15   -4.43e-14
+
+Name:        m3          m5          m15         m16
+Model:    smic18p33   smic18p33   smic18p33   smic18p33
+Id:       -1.10e-05   -2.32e-06   -1.04e-05   -1.06e-05
+Vgs:      -7.45e-01   -7.45e-01   -9.57e-01   -9.57e-01
+Vds:      -7.45e-01   -3.30e+00   -9.57e-01   -2.31e+00
+Vbs:       0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Vth:      -6.77e-01   -6.76e-01   -6.75e-01   -6.75e-01
+Vdsat:    -9.33e-02   -9.39e-02   -2.40e-01   -2.40e-01
+Gm:        1.75e-04    3.64e-05    6.84e-05    6.95e-05
+Gds:       2.62e-07    2.73e-08    2.18e-07    6.73e-08
+Gmb        9.08e-05    1.88e-05    3.55e-05    3.60e-05
+Cbd:       0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbs:       0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgsov:     1.62e-14    3.23e-15    1.62e-15    1.62e-15
+Cgdov:     1.62e-14    3.23e-15    1.62e-15    1.62e-15
+Cgbov:     4.24e-16    4.27e-16    4.30e-16    4.30e-16
+dQgdVgb:   1.51e-13    3.07e-14    1.66e-14    1.66e-14
+dQgdVdb:  -1.62e-14   -3.23e-15   -1.62e-15   -1.62e-15
+dQgdVsb:  -1.16e-13   -2.35e-14   -1.34e-14   -1.34e-14
+dQddVgb:  -1.63e-14   -3.23e-15   -1.63e-15   -1.62e-15
+dQddVdb:   1.62e-14    3.23e-15    1.62e-15    1.62e-15
+dQddVsb:   1.53e-16    1.62e-18    1.30e-17    2.05e-18
+dQbdVgb:  -2.40e-14   -5.17e-15   -2.74e-15   -2.74e-15
+dQbdVdb:  -4.81e-18    7.78e-20   -1.54e-18   -3.99e-20
+dQbdVsb:  -4.43e-14   -8.90e-15   -4.47e-15   -4.47e-15
+
+
+
+vo0_a: mag(v(vout))=(-277.082dB,0°) at 1
+
+Measurement "bw" FAIL'ed
+
+Measurement "gbw" FAIL'ed
+vo0: v(vout)=(-277.082dB,-177.598°) at 1
+
+Measurement "delta_phase" FAIL'ed
+v(vout)/v(vinp)/2=1e+09 FROM 1 TO 1e+09
+
+Total elapsed time: 0.204 seconds.
+

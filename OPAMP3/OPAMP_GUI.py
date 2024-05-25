@@ -3,6 +3,7 @@ import sys
 # import numpy as np
 from matplotlib import pyplot as plt
 
+import Simulator
 import Optimizer
 import user
 
@@ -18,17 +19,24 @@ class Worker(QThread):
                  sim_sel, lb, ub, circuitsimulation, startpoint, 
                  Avomin, GBWmin, PMmin):
         super().__init__()
+        self.SimFilePath = SimFilePath
+        self.SimFileName = SimFileName
+        self.LTspiceExec = LTspiceExec
+        self.Model = Model
+
         self.iter = []
         self.hisy = []
         self.optimizer = Optimizer.optimizer(SimFilePath=SimFilePath, SimFileName=SimFileName, LTspiceExec=LTspiceExec, Model=Model, 
                                              sim_sel=sim_sel, lb=lb, ub=ub, circuitsimulation=circuitsimulation, startpoint=startpoint, 
                                              Avomin=Avomin, GBWmin=GBWmin, PMmin=PMmin)
+
     def run(self):
         self.optimizer.optimize()
         self.iter = self.optimizer.history_iter
         self.hisy = self.optimizer.history_min
         print(self.iter)
         print(self.hisy)
+
         # plt.plot(self.iter, self.hisy)
         # plt.show()
 
@@ -159,6 +167,8 @@ class Ui_MainWindow(object):
         circuitsimulation = False
         if(self.UseCircuitSimulation.isChecked()):
             circuitsimulation = True
+        
+        self.circuitsimulation = circuitsimulation
 
         SimFilePath_Name = self.SimFilePath_Name.text()
         SimFilePath, SimFileName = os.path.split(SimFilePath_Name)
@@ -181,8 +191,31 @@ class Ui_MainWindow(object):
     def Timer0(self):
         if(len(self.worker.iter) != 0):
             self.timer0.stop()
+            
             self.Report.setText("x_star: " + str(self.worker.optimizer.best_x) + "\n" + \
-                                "y_star: " + str(self.worker.optimizer.best_y))
+                                "y_star: " + str(self.worker.optimizer.best_y) + "\n")
+            
+            if(self.circuitsimulation == True):
+                W, R, C = user.Variable_to_CircuitParameter(self.worker.optimizer.best_x)
+                simulator = Simulator.Simulator(SimFilePath=self.worker.SimFilePath, 
+                                        SimFileName=self.worker.SimFileName, 
+                                        LTspiceExec=self.worker.LTspiceExec, 
+                                        Model=self.worker.Model)
+                
+                result = simulator.Simulator(W, user.my_Length_nm, R, C)
+                print(W, R, C)
+                self.Report.setText(
+                                "x_star: " + str(self.worker.optimizer.best_x) + "\n" + \
+                                "y_star: " + str(self.worker.optimizer.best_y) + "\n" + \
+                                "W: "      + str(W) + "\n"               + \
+                                "R: "      + str(R) + "\n"               + \
+                                "C: "      + str(C) + "\n"               + \
+                                "P0:"      + str(result["P0"])    + "\n" + \
+                                "AvodB:"   + str(result["AvodB"]) + "\n" + \
+                                "GBW:"     + str(result["GBW"])   + "\n" + \
+                                "PMdeg:"   + str(result["PMdeg"]) + "\n" + \
+                                "all_sat:" + str(result["all_sat"]))
+
             plt.plot(self.worker.iter, self.worker.hisy)
             plt.title("simulation result")
             plt.show()
